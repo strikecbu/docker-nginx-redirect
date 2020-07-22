@@ -5,7 +5,7 @@ Default cert host name is 'localhost'.
 
 ## Resources
 
-- [Docker Hub](https://hub.docker.com/r/schmunk42/nginx-redirect/)
+- [Docker Hub](https://hub.docker.com/r/andychentw/nginx-redirect/)
 
 ## Configuration
 
