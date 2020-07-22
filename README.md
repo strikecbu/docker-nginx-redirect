@@ -1,6 +1,7 @@
 # docker-nginx-redirect
 
-A very simple container to redirect HTTP traffic to another server, based on `nginx`
+A very simple container to redirect 'HTTPS' traffic to another server, based on `nginx`
+Default cert host name is 'localhost'. 
 
 ## Resources
 
