@@ -1,6 +1,6 @@
 # docker-nginx-redirect
 
-A very simple container to redirect 'HTTPS' traffic to another server, based on `nginx`
+A very simple container to redirect 'HTTPS' traffic to another server, based on `nginx`.
 Default cert host name is 'localhost'. 
 
 ## Resources
@@ -44,10 +44,10 @@ With `docker-compose`
     docker-compose up -d
     
 With `docker`    
-
-    docker run -e SERVER_REDIRECT=www.example.com -p 8888:80 schmunk42/nginx-redirect
-    docker run -e SERVER_REDIRECT=www.example.com -e SERVER_REDIRECT_PATH=/landingpage -p 8888:80 schmunk42/nginx-redirect
-    docker run -e SERVER_REDIRECT=www.example.com -e SERVER_REDIRECT_PATH=/landingpage -e SERVER_REDIRECT_SCHEME=https -p 8888:80 schmunk42/nginx-redirect
+    
+    docker run -e SERVER_REDIRECT=www.example.com -p 8888:80 andychentw/nginx
+    docker run -e SERVER_REDIRECT=www.example.com -e SERVER_REDIRECT_PATH=/landingpage -p 8888:80 andychentw/nginx
+    docker run -e SERVER_REDIRECT=www.example.com -e SERVER_REDIRECT_PATH=/landingpage -e SERVER_REDIRECT_SCHEME=https -p 8888:80 andychentw/nginx
 
 ---
 
