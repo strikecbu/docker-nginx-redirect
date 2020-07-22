@@ -45,9 +45,9 @@ With `docker-compose`
     
 With `docker`    
     
-    docker run -e SERVER_REDIRECT=www.example.com -p 8888:80 andychentw/nginx
-    docker run -e SERVER_REDIRECT=www.example.com -e SERVER_REDIRECT_PATH=/landingpage -p 8888:80 andychentw/nginx
-    docker run -e SERVER_REDIRECT=www.example.com -e SERVER_REDIRECT_PATH=/landingpage -e SERVER_REDIRECT_SCHEME=https -p 8888:80 andychentw/nginx
+    docker run -e SERVER_REDIRECT=www.example.com -p 8888:80 andychentw/nginx-redirect
+    docker run -e SERVER_REDIRECT=www.example.com -e SERVER_REDIRECT_PATH=/landingpage -p 8888:80 andychentw/nginx-redirect
+    docker run -e SERVER_REDIRECT=www.example.com -e SERVER_REDIRECT_PATH=/landingpage -e SERVER_REDIRECT_SCHEME=https -p 8888:80 andychentw/nginx-redirect
 
 ---
 
